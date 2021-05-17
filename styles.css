@@ -69,14 +69,28 @@ header {
     margin-top: 280px;
 }
 /*Highlight content > Grid*/
+.grid {
+    margin-top: 70px;
+}
+.txt-grid-grp {
+    height: 150px;
+}
+.large-box {
+    width: 450px;
+}
+.pink, .violet, .green, .small-Img, .large-Img {
+    height: 278px;
+    padding: 50px 35px 50px 35px;
+}
 .pink {
     background-color: #f5989d;
     margin: 0;
-    padding: 50px;
-
+    display: inline-block;
+    position: relative;
+    float: left;
 }
 .pink p, .violet p, .green p, .small-Img p, .large-Img p {
-    margin: 24px 0 24px 0;
+    margin: 24px 0 38px 0;
     color: #ffffff;
     font-size: 13px;
     font-weight: normal;
@@ -84,24 +98,81 @@ header {
 .violet {
     background-color: #615f7d;
     margin: 0;
-    padding: 50px;
+    display: inline-block;
+    position: relative;
 }
 .green {
     background-color: #82ca9c;
     margin: 0;
-    padding: 50px;
+    position: relative;
+    float: right;
 }
 .small-Img {
     background: url(imgs/img_SmallRect1.png) no-repeat;
     margin: 0;
-    padding: 50px;
+    position: relative;
+    float: right;
 }
 .large-Img {
     background: url(imgs/img_LargeRect1.png) no-repeat;
     margin: 0;
-    padding: 50px;
+    display: inline-block;
+    position: relative;
 }
 .icon {
     position: relative;
     float: right;
+}
+/*Section 4 Details*/
+.details {
+    margin: 97px 0 150px 0;
+}
+.details h3 {
+    color: #222626;
+    font-size: 35px;
+}
+.details p {
+    font-size: 14px;
+}
+.details h4 {
+    color: #67676d;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.titleDetails {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 60px;
+}
+.elementsDetails {
+    float: left;
+    position: relative;
+    display: flex;
+}
+.webBase {
+    display: inline-block;
+    position: relative;
+}
+
+.performance {
+    display: inline-block;
+    position: relative;
+}
+
+.cultural {
+    display: inline-block;
+    position: relative;
+}
+
+.sustainability {
+    position: relative;
+    float: right;
+}
+/*Section 5 Big picture */
+.bigImg {
+    background: url(imgs/Img_master2.png) no-repeat;
+    background-size: cover;
+    height: 951px;
 }

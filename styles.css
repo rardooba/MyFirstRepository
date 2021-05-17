@@ -1,5 +1,9 @@
 h1 {
     color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 54px;
+    font-weight: lighter;
+    margin-top: 450px;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -11,4 +15,17 @@ body {
     .container {
         width: 1230px;
     }
+}
+header {
+    background: url(imgs/Img_master1.png) no-repeat;
+    background-size: cover;
+}
+.logo {
+    position: absolute;
+    margin-top: 54px;
+    float: left;
+}
+.phone {
+    position: absolute;
+    margin-top: 260px;
 }

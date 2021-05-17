@@ -1,0 +1,14 @@
+h1 {
+    color: #ffffff;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 1230px;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1230px;
+    }
+}

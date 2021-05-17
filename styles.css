@@ -1,12 +1,24 @@
 h1 {
     color: #ffffff;
-    font-family: 'Open Sans';
+    text-align: left;
+    position: relative;
     font-size: 54px;
     font-weight: lighter;
-    margin-top: 450px;
+    margin: 450px 0 20px 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #222626;
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 .container {
     width: 1230px;
@@ -19,6 +31,7 @@ body {
 header {
     background: url(imgs/Img_master1.png) no-repeat;
     background-size: cover;
+    height: 951px;
 }
 .logo {
     position: absolute;
@@ -28,4 +41,8 @@ header {
 .phone {
     position: absolute;
     margin-top: 260px;
+}
+.whiteText p {
+    color: #ffffff;
+    font-size: 13px;
 }

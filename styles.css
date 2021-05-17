@@ -6,8 +6,25 @@ h1 {
     font-weight: lighter;
     margin: 450px 0 20px 0;
 }
+h3 {
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: left;
+}
+h2 {
+    color: #222626;
+    text-align: left;
+    position: relative;
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 114px 0 40px 0;
+}
+p {
+    color: #959595;
+}
 a {
     text-decoration: none;
+    position: relative;
     font-weight: bold;
     font-size: 14px;
     color: #ffffff;
@@ -28,6 +45,7 @@ body {
         width: 1230px;
     }
 }
+/*Header*/
 header {
     background: url(imgs/Img_master1.png) no-repeat;
     background-size: cover;
@@ -42,7 +60,48 @@ header {
     position: absolute;
     margin-top: 260px;
 }
+/*Description*/
 .whiteText p {
     color: #ffffff;
     font-size: 13px;
+}
+.text-Low-Descr {
+    margin-top: 280px;
+}
+/*Highlight content > Grid*/
+.pink {
+    background-color: #f5989d;
+    margin: 0;
+    padding: 50px;
+
+}
+.pink p, .violet p, .green p, .small-Img p, .large-Img p {
+    margin: 24px 0 24px 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+}
+.violet {
+    background-color: #615f7d;
+    margin: 0;
+    padding: 50px;
+}
+.green {
+    background-color: #82ca9c;
+    margin: 0;
+    padding: 50px;
+}
+.small-Img {
+    background: url(imgs/img_SmallRect1.png) no-repeat;
+    margin: 0;
+    padding: 50px;
+}
+.large-Img {
+    background: url(imgs/img_LargeRect1.png) no-repeat;
+    margin: 0;
+    padding: 50px;
+}
+.icon {
+    position: relative;
+    float: right;
 }

@@ -124,7 +124,7 @@ header {
     float: right;
 }
 /*Section 4 Details*/
-.details {
+.details, .price {
     padding: 97px 0 150px 0;
 }
 .details h3 {
@@ -175,4 +175,73 @@ header {
 }
 .details-color-bg .color-police h3, .details-color-bg .color-police h4, .details-color-bg .color-police p{
     color: #ffffff;
+}
+/*Section 7 Gammes de prix*/
+.price-bloc {
+    background-color: #ffffff;
+    padding: 46px 54px 46px 54px;
+    box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
+    -moz-box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
+    -webkit-box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
+}
+.price-bloc-1 {
+    padding: 46px 54px 46px 54px;
+}
+.price-color-h3 {
+    margin-top: 24px;
+}
+.price-color-h3 h3 {
+    color: #222626;
+}
+.price-color-bg {
+    background-color: #f6f7fa;
+}
+a .btn-inactive {
+    background-color: #e1e1e1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+a .btn-active {
+    color: #fff;
+    background-color: #bd8cbf;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+a .btn-secondary {
+    color: #fff;
+    background-color: #82ca9c;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+a:hover .btn-secondary {
+    background-color: #3a965b;
+}
+.btn-2 {
+    padding: 18px 26px 18px 26px;
+    border: none;
+}
+.btn-1 {
+    padding: 6px 13px 6px 13px;
+    border: none;
+}
+.icons {
+    position: relative;
+    width: 60px;
+    height: 45px;
+    padding-top: 19px;
+}
+.icon-wind {
+    position: relative;
+    float: right;
+}
+.icon-apple {
+    position: relative;
+    float: left;
 }

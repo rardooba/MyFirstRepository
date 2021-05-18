@@ -62,6 +62,18 @@ header {
 .phone {
     position: absolute;
     margin-top: 260px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    overflow: hidden;
+}
+@keyframes slidein {
+from {
+    left: 800px;
+}
+
+to {
+    left: 0px;
+}
 }
 /*Description*/
 .whiteText p {
@@ -163,6 +175,7 @@ header {
 .bigImg {
     background: url(imgs/Img_master2.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed; /*parallax fx */
     height: 951px;
 }
 .bigImg p {
@@ -177,12 +190,51 @@ header {
 }
 /*Section 7 Gammes de prix*/
 .price-bloc {
+    padding: 46px 54px 46px 54px;  
+}
+.price-bloc:hover {
     background-color: #ffffff;
-    padding: 46px 54px 46px 54px;
     box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
     -moz-box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
     -webkit-box-shadow: 0px 0px 24px 5px rgba(119, 119, 119, 0.4);
 }
+/*-----------------------------------------Animation Bloc*/
+.bloc:hover {
+    transform: translateY(0px);
+}
+.bloc::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.bloc-white::after {
+    background-color: #fff;
+}
+
+.bloc:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.bloc-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*-----------------------------------------Animation Bloc END*/
 .price-bloc-1 {
     padding: 46px 54px 46px 54px;
 }
@@ -270,6 +322,7 @@ footer p, footer li, footer h4 {
 }
 .get-touch-txt {
     margin-bottom: 75px;
+    padding-right: 65px;
 }
 .erratum {
     margin-top: 15px;

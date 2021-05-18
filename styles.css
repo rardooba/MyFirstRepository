@@ -125,7 +125,7 @@ header {
 }
 /*Section 4 Details*/
 .details {
-    margin: 97px 0 150px 0;
+    padding: 97px 0 150px 0;
 }
 .details h3 {
     color: #222626;
@@ -151,22 +151,12 @@ header {
     position: relative;
     display: flex;
 }
-.webBase {
+.content-details-p {
     display: inline-block;
     position: relative;
 }
 
-.performance {
-    display: inline-block;
-    position: relative;
-}
-
-.cultural {
-    display: inline-block;
-    position: relative;
-}
-
-.sustainability {
+.content-details-p-end {
     position: relative;
     float: right;
 }
@@ -178,4 +168,11 @@ header {
 }
 .bigImg p {
     width: 400px;
+}
+/*Section 6 A propos */
+.details-color-bg {
+    background-color: #82ca9c;
+}
+.details-color-bg .color-police h3, .details-color-bg .color-police h4, .details-color-bg .color-police p{
+    color: #ffffff;
 }

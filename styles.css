@@ -87,7 +87,6 @@ header {
 .pink {
     background-color: #f5989d;
     margin: 0;
-    display: inline-block;
     position: relative;
     float: left;
 }
@@ -244,4 +243,59 @@ a:hover .btn-secondary {
 .icon-apple {
     position: relative;
     float: left;
+}
+/*Footer*/
+.col-footer {
+    padding: 130px 0 155px 0;;
+    position: relative;
+}
+.footer-color-bg {
+    background-color: #192431;
+}
+footer p, footer li, footer h4 {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.footer-list ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-list .col-md-3 {
+    padding-left: 0px;
+}
+.footer-list h4, .get-touch-txt h4 {
+    margin-bottom: 30px;
+}
+.get-touch-txt {
+    margin-bottom: 75px;
+}
+.erratum {
+    margin-top: 15px;
+}
+.erratum p {
+    font-size: 12px;
+    color: #57697f;
+    line-height: 15px;
+}
+form {
+    width: 387px;
+    position: relative;
+}
+.form-control {
+    border-radius: 4px 0 0 4px;
+    margin: 0px;
+    height: 58px;
+}
+.btn-form {
+    border-radius: 0 4px 4px 0;
+    padding: 17px;
+    background-color: #82ca9c;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+input {
+    margin: 0px;
 }

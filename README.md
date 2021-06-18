@@ -1,5 +1,6 @@
 # MyFirstRepository
 This my first repository as part of my training at #OPCLR
+Before begin Openclassrooms's courses >> https://rardooba.github.io/MyFirstRepository/
 
 - 👋 Hi, I’m @rardooba
 - 👀 I’m interested in visualArt and codingProgram 
